@@ -18,6 +18,7 @@ type RowObj = {
     name: string;
     quantity: number;
     date: string;
+    actions?: string;
 };
 
 const columnHelper = createColumnHelper<RowObj>();
